@@ -11,5 +11,5 @@ This is a solution to the [Notifications page](https://www.frontendmentor.io/cha
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
 - LinkedIn Profile - [Fernando Laxi](https://www.linkedin.com/in/fernando-laxi-2aaa7a246/)
-- Live Site URL: [Notifications page]()🌐
+- Live Site URL: [Notifications page](https://ferlaxi.github.io/Notifications-Page/)🌐
 
