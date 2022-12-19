@@ -1,0 +1,633 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    position: relative;
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+strong
+{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.name
+{
+    color: hsl(224, 21%, 14%);
+    transition: all .4s;
+}
+
+.name:hover
+{
+    color: hsl(219, 85%, 26%);
+}
+
+.link
+{
+    transition: all .2s;
+}
+
+.contenedor
+{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 780px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.041);
+}
+
+.letra_boton p
+{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.letra_boton .numero
+{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 2px 10px 13px 10px;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 217px;
+    margin-top: -29px;
+}
+
+.letra_boton .leido
+{
+    display: block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+    color: hsl(219, 14%, 63%);
+    margin-left: 495px;
+    margin-top: -20px;
+    transition: all .3s;
+    
+}
+
+.letra_boton .leido:hover
+{
+    color: hsl(219, 85%, 26%);
+}
+
+.Mark
+{
+    width: 650px;
+    height: 75px;
+    background-color: hsl(210, 60%, 98%);
+    margin-left: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgMark
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Mark p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeMark
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 35px;
+    color: hsl(219, 14%, 63%);
+}
+
+.dot1
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    left: 625px;
+    top: 20px;
+    transition: all .3s ;
+}
+
+
+.Angela
+{
+    width: 650px;
+    height: 75px;
+    background-color: hsl(210, 60%, 98%);
+    left: 25px;
+    top: 8px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgAng
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Angela p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeAng
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 35px;
+    color: hsl(219, 14%, 63%);
+}
+
+.dot2
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    left: 235px;
+    top: 20px;
+    transition: all .3s ;
+}
+
+
+
+.Jacob
+{
+    width: 650px;
+    height: 75px;
+    background-color: hsl(210, 60%, 98%);
+    left: 25px;
+    top: 15px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgJac
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Jacob p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeJacob
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 35px;
+    color: hsl(219, 14%, 63%);
+}
+
+.dot3
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    left: 505px;
+    top: 20px;
+    transition: all .3s ;
+}
+
+
+
+.Rizky
+{
+    width: 650px;
+    height: 170px;
+    left: 25px;
+    top: 22px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgRiz
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Rizky p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeRiz
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 35px;
+    color: hsl(219, 14%, 63%);
+}
+
+.mp
+{
+    cursor: pointer;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: hsl(219, 12%, 42%);
+    left: 70px;
+    top: 70px;
+    width: 530px;
+    padding: 15px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 1px solid hsl(205, 33%, 90%);
+    transition: all .4s;
+}
+
+.mp:hover
+{
+    background-color: hsl(211, 68%, 94%);
+}
+
+
+
+
+
+.Kim
+{
+    width: 650px;
+    height: 75px;
+    left: 25px;
+    top: 30px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgKim
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Kim p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeKim
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 35px;
+    color: hsl(219, 14%, 63%);
+}
+
+.picKim
+{
+    position: absolute;
+    width: 50px;
+    left: 570px;
+    top: 12px;
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.picKim:hover
+{
+    box-shadow: 0px 0px 0px 3px hsl(205, 33%, 90%);
+}
+
+
+
+.Nat
+{
+    width: 650px;
+    height: 75px;
+    left: 25px;
+    top: 38px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgNat
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Nat p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeNat
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 57px;
+    color: hsl(219, 14%, 63%);
+}
+
+
+
+
+.Anna
+{
+    width: 650px;
+    height: 75px;
+    left: 25px;
+    top: 47px;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s ;
+}
+
+.imgAnna
+{
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 12px;
+}
+
+.Anna p
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 13px;
+}
+
+.timeAnna
+{
+    position: absolute;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    left: 70px;
+    top: 37px;
+    color: hsl(219, 14%, 63%);
+}
+
+
+.ferlink
+{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 830px;
+}
+
+.ferlaxi
+{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    transition: all .2s;
+    opacity: 0.4;
+}
+
+.ferlaxi:hover
+{
+    box-shadow: 0px 0px 0px 3px hsl(205, 72%, 53%);
+    opacity: 1;
+}
+
+
+/* 1440px Size */
+@media screen and (max-width: 1440px)
+{
+    .ferlink
+    {
+        margin-left: 800px;
+    }
+
+    .ferlaxi
+    {
+        margin-top: -65px;
+    }
+}
+
+/* 375px Size */
+@media screen and (max-width: 375px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    .contenedor
+    {
+        box-shadow: none;
+    }
+
+    .letra_boton p
+    {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .letra_boton .numero
+    {
+        margin-left: 165px;
+        margin-top: -23px;
+    }
+
+    .letra_boton .leido
+    {
+        margin-left: 200px;
+        margin-top: -21px;
+        font-size: 14px;
+    }
+
+    .Mark
+    {
+        margin-left: 15px;
+        width: 348px;
+        font-size: 14px;
+        height: 88px;
+    }
+
+    .timeMark
+    {
+        margin-top: 20px;
+    }
+
+    .dot1
+    {
+        margin-left: -345px;
+        margin-top: 16px;
+    }
+
+    .Angela
+    {
+        margin-left: -10px;
+        width: 348px;
+        font-size: 14px;
+        height: 72px;
+    }
+
+    .dot2{
+        margin-left: -20px;
+        margin-top: -1px;
+    }
+
+    .Jacob
+    {
+        margin-left: -10px;        
+        width: 348px;
+        font-size: 14px;
+        height: 82px;
+    }
+
+    .timeJacob
+    {
+        margin-top: 20px;
+    }
+
+    .dot3{
+        margin-left: -320px;
+        margin-top: 17px;
+    }
+
+    .Rizky
+    {
+        margin-left: -10px;
+        width: 348px;
+        font-size: 14px;
+        height: 82px;
+    }
+
+    .timeRiz
+    {
+        margin-top: 20px;
+    }
+
+    .mp
+    {
+        width: 275px;
+        margin-top: 15px;
+        padding-left: 22px;
+    }
+
+    .Kim
+    {
+        margin-left: -10px;
+        width: 348px;
+        font-size: 14px;
+        height: 82px;
+        margin-top: 130px;
+    }
+
+    .timeKim
+    {
+       margin-top: 5px;
+    }
+
+    .picKim
+    {
+        margin-left: -275px;
+        margin-top: 5px;
+        width: 40px;
+    }
+    
+    .Nat
+    {
+        margin-left: -10px;
+        width: 348px;
+        font-size: 14px;
+        height: 82px;
+        margin-top: -10px;
+    }
+
+    .timeNat
+    {
+       margin-top: 20px;
+    }
+
+    .Anna
+    {
+        margin-left: -10px;
+        width: 348px;
+        font-size: 14px;
+        height: 82px;
+        margin-top: 15px;
+    }
+
+    .timeAnna
+    {
+       margin-top: 20px;
+    }
+
+
+
+    .ferlink
+    {
+        margin-left: -10px;
+    }
+
+    .ferlaxi
+    {
+        margin-top: 40px;
+    }
+
+}
